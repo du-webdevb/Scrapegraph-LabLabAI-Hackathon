@@ -31,7 +31,7 @@ with st.sidebar:
 st.title("Intuitive-ai")
 left_co, cent_co, last_co = st.columns(3)
 with cent_co:
-    st.image("assets/intuitive-removebg-preview.png")
+    st.image("assets/intuitive.png")
 
 key = st.text_input("Openai API key", type="password")
 model = st.radio(

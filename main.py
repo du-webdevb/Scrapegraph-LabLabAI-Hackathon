@@ -13,8 +13,8 @@ def save_email(email):
         file.write(email + "\n")
 
 with st.sidebar:
-    st.write("Official demo for [Scrapegraph-ai](https://github.com/VinciGit00/Scrapegraph-ai) library")
-    st.markdown("""---""")
+    #st.write("Official demo for [Scrapegraph-ai](https://github.com/VinciGit00/Scrapegraph-ai) library")
+    #st.markdown("""---""")
     st.write("# Usage Examples")
     st.write("## Prompt 1")
     st.write("- What are some ways Intuitive-ai can better convey the value of our AI solutions for informed decision-making? ")
